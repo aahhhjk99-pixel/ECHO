@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>ECHO — Last Signal | 3D Phase 1</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="boot"><b>ECHO</b><span>3D WORLD INITIALIZING</span></div>
+<div id="menu" class="overlay">
+  <div class="card"><small>ORIGINAL SURVIVAL EXPERIENCE</small><h1>ECHO</h1><h2>LAST SIGNAL</h2>
+  <p>A 3D WebGL foundation: exploration, third-person camera, local save, combat core and responsive controls.</p>
+  <button id="new">NEW EXPEDITION</button><button id="continue">CONTINUE</button>
+  <div class="hint">WASD / touch joystick · mouse / FIRE · E interact · SHIFT dash · R reload · Q medkit</div></div>
+</div>
+<div id="pause" class="overlay hidden"><div class="card"><h2>PAUSED</h2><button id="resume">RESUME</button><button id="save">SAVE</button><button id="menuBtn">MAIN MENU</button></div></div>
+<div id="hud" class="hidden">
+  <div class="brand">ECHO <span>LAST SIGNAL</span></div>
+  <div id="objective">Reach the relay.</div>
+  <div id="stats"><div>HP <i><b id="hp"></b></i></div><div>ENERGY <i><b id="energy"></b></i></div><strong id="ammo">12 / 36</strong></div>
+  <div id="cross">+</div><div id="msg"></div>
+  <button id="pauseBtn">Ⅱ</button>
+  <div id="mobile"><div id="joy"><div id="knob"></div></div><div class="mBtns"><button id="fire">FIRE</button><button id="dash">DASH</button><button id="use">USE</button></div></div>
+</div>
+<script type="module" src="game.js"></script></body></html>
